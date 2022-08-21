@@ -1,12 +1,12 @@
 ---
-import Timer from '../components/Timer.astro';
+import Timer from '../components/Timer';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<h1>Der des frères</h1>
 	<body>
-		<Timer/>
+		<Timer client:visible/>
 	</body>
 </Layout>
 
