@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    // Just Solid things
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     // Enable top-level await, and other modern ESM features.
     "target": "ESNext",
     "module": "ESNext",
