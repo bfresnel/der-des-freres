@@ -1,16 +1,17 @@
 ---
 import Timer from '../components/Timer';
 import Layout from '../layouts/Layout.astro';
+import ActivateButton from '../components/ActivateButton.astro';
 ---
 
 <Layout title="Der des frères">
 	<h1>Der des frères</h1>
 	<Timer client:visible/>
+	<ActivateButton />
 </Layout>
 
-<style>
-	h1 {
-		display: flexbox;
-		text-align: center;
-	}
+<style lang="sass">
+	h1
+		display: flex
+		justify-content: center
 </style>
